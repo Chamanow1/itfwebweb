@@ -1,0 +1,12 @@
+nav {
+    background-color: rgb(154, 154, 204);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+}
+.container{
+    margin: 8px 32px;
+}
