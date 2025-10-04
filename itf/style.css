@@ -1,12 +1,36 @@
-nav {
-    background-color: rgb(154, 154, 204);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-}
 body {
     margin: 0;
 }
-.container{
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #1665E5;
+    color: rgb(255, 255, 255);
+}
+
+.container {
     margin: 8px 32px;
+    display: flex;
+}
+
+.container h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 65px;
+}
+
+.container p {
+    color: #000000;
+    margin: 0;
+}
+
+.container img {
+    margin-right: 15px;
+}
+
+.textArea {
+    margin-left: 30px;
 }
