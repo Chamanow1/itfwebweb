@@ -9,19 +9,68 @@
 <body>
     <nav>
         <p>68070037</p>
-        <h2>ITF Website</h2>
+        <h1>ITF Website</h1>
         <p>Week 14</p>
     </nav>
     <div class="container">
-        <img src="C:\Users\bbbb\Documents\WebITF\banknote.png" width="200" alt="Cool">
+        <img src="C:\Users\bbbb\Documents\WebITF\banknote.png" width="200" alt="Banknote">
         <div>
-            <h2>Welcome to my ITF website?!</h2>
+            <h1>Welcome to my ITF website?!</h1>
             <p>Welcome to my bank website</p>
         </div>
+        <hr>
+        <div class="textArea">
+            <textarea id="mytextarea" rows="10" cols="100">Loading...</textarea><br>
+        </div>
     </div>
-    <hr>
-    <div class="textArea">
-        <textarea id="mytextarea" rows="10" cols="100">Hello World</textarea><br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <div class="Headers">
+        <h1>Account Overview</h1>
+        <h1 style="margin-right: 600px;">Financial Tools</h1>
+    </div>
+    <div class="account">
+        <img src="C:\Users\bbbb\Documents\WebITF\user.png" alt="User">
+        <div class="Box">
+            <h2>Account Information</h2>
+            <p>Account Name : Natamon Ampaisutipong</p>
+            <p>Account Number : 68070037</p>
+            <p>Type : Savings account</p>
+        </div>
+        <img src="C:\Users\bbbb\Documents\WebITF\credit_card.png" alt="credit_card">
+        <div class="Box">
+            <h2>Bank Operation</h2>
+            <select name="operation" id="operation">
+                <option value="deposit">Deposit</option>
+                <option value="withdraw">Withdraw</option>
+            </select>
+            <input type="number" id="amount" placeholder="0">
+            <button onclick="proceed()">Proceed</button>
+        </div>
+        <img src="C:\Users\bbbb\Documents\WebITF\coins.png" alt="coins">
+        <div class="Box">
+            <h2>Currency Converter</h2>
+            <label for="input">Input balance:</label>
+            <input type="number" id="input" value="0">
+            <label for="output">Output balance:</label>
+            <input type="number" id="output" value="0">
+            <label for="currency">Input currency:</label>
+            <select name="currency" id="currency">
+                <option value="THB">THB</option>
+                <option value="USD">USD</option>
+            </select>
+            <button onclick="">Convert</button>
+        </div>
+    </div>
+    <div class="account">
+        <img src="C:\Users\bbbb\Documents\WebITF\briefcase.png" alt="briefcase">
+        <div class="Box">
+            <h2>Balance Information</h2>
+            <label for="myinput">Current account balance :</label>
+            <input type="number" id="myinput" value="0">
+            <label for="ourinput">Current cash balance :</label>
+            <input type="number" id="ourinput" value="0">
+            <button onclick="copytotext()">Change</button>
+        </div>
     </div>
 </body>
 <script src="script.js"></script>

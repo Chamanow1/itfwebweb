@@ -1,7 +1,11 @@
-const my_input = document.getElementById("my_input")
-let current_value = 1
+function copytotext() {
+	let inputtext = document.getElementById("myinput").value;
+	let outputtext = document.getElementById("ourinput").value;
+	let result = "Current account balance :" + inputtext + "\nCurrent cash balance :" + outputtext;
+	document.getElementById("mytextarea").value = result;
+}
 
-function calc(x) {
-	current_value += Number(x)
-	my_input.value = Number(current_value) + 1
+function proceed() {
+	let amount = document.getElementById("amount").value;
+	
 }

@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #B2E2BE;
 }
 
 nav {
@@ -7,7 +8,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
-    background-color: #1665E5;
+    background-color: #30B457;
     color: rgb(255, 255, 255);
 }
 
@@ -16,15 +17,16 @@ nav {
     display: flex;
 }
 
-.container h2 {
+.container h1 {
     color: #000000;
     margin-bottom: 20px;
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
 .container p {
     color: #000000;
     margin: 0;
+    font-size: 22px;
 }
 
 .container img {
@@ -32,5 +34,51 @@ nav {
 }
 
 .textArea {
-    margin-left: 30px;
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.Headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.account {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.account img {
+    margin-right: 20px;
+    width: 140px;
+}
+
+.Box {
+    margin-bottom: 15px;
+    margin-right: 80px;
+    padding: 0 20px;
+    display: grid;
+}
+
+.Box p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.Box h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.Box button {
+    width: 70px;
+}
+.Box select {
+    width: 75px;
+}
+.Tools {
+    display: grid;
 }
